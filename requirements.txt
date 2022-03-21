@@ -1,0 +1,8 @@
+asgiref==3.5.0
+Django==3.2
+djangorestframework~=3.13.1
+sqlparse==0.4.2
+django-environ
+gunicorn
+django-storages
+boto3
