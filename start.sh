@@ -1,5 +1,6 @@
 #!/bin/sh
 
+python /django_application/manage.py makemigrations
 python /django_application/manage.py migrate
 python /django_application/manage.py collectstatic --noinput
 
